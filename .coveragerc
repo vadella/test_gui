@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/test_gui
+   */site-packages/test_gui
+
+[run]
+branch = true
+source =
+    test_gui
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
